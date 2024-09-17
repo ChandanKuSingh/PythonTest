@@ -56,5 +56,10 @@ class test_class_1:
         print("%s" % (test_class_1.test_case_2.__name__,))
 
     """OUTPUT:
-    
+    1. setup - called before each test method > setUpModule
+    2. setup class called before any method in this class is executed
+    3. setup called before any method in this class is executed
+    4. teardown - called after each test method in this class is executed
+    5. teardown class called after methods in this class is executed
+    6. teardown - called after each test method > tearDownModule
     """

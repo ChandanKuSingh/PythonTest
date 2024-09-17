@@ -7,7 +7,7 @@ The three most popular test runners in Python are:
 
 # unittest
 Built into the Python standard library.
-
+python3 -m pydoc unittest
 major requirements of unittest:
 
 Tests are written in a class which inherits from unittest.TestCase.
@@ -31,3 +31,9 @@ Auto-discovery of test modules and functions
 Support for filtering of test cases
 Ability to rerun from the last failing test
 An ecosystem of hundreds of plugins to extend the functionality
+
+# Pytest vs Unittest
+
+https://www.browserstack.com/guide/pytest-vs-unittest
+
+
